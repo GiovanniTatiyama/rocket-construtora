@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+h1{
+    font-weight:bolder;
+}
+
+p{
+    font-weight:lighter;
+    font-size: 20px;
+}
+
+body{
+    background-color:#f1f2f7;
+    color: rgb(36, 36, 36);
+}
+
+.container-infos{
+    background-color: #01a0b5e0;
+    width: 100%;
+    color: #f1f2f7;
+    text-decoration: none;
+    padding: 0.5em;
+    display: flex;
+    justify-content:flex-end;
+    top: 0;
+}
+
+.infos{
+    padding-left:2em;
+    padding-right:10px;
+}
+
+.infos>a:link{
+    color:aliceblue;
+}
+
+.container1{
+    background-color: rgba(240, 248, 255, 0.945);
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-top: 0px;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 300px;
+    padding: 5px;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#01a0b5;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+
+nav ul li a{
+    color: rgb(19, 19, 19);
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    
+    
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #01a0b5;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+
+
+/*--------------quem somos------------*/
+#quem-somos{
+    color:rgb(43, 43, 43);
+}
+
+
+.sobre-col-1{
+    flex-basis: 50%;
+}
+
+.sobre-col-1 img{
+    width: 100%;
+    padding: 20px;
+}
+
+.container {
+    padding: 40px;
+}
+
+.conteudo{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.sobre-col-2{
+    padding: 30px;
+}
+
+.p-sobre>span{
+    font-weight: bold;
+    color: #01a0b5;
+}
+
+
+.p-sobre{
+    font-size: 20px;
+}
+
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  .marketing h2 {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+
+
+
+/*-------------Galeria--------------*/
+
+.titulo{
+    font-weight: 400;
+    font-size:3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.icon{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+
+/*-------------Galeria--------------*/
+
+/*--------------Contato------------*/
+
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #01a0b5;
+    font-weight: 300;
+    margin-top: 30px;
+    color: aliceblue;
+}
+
+
+nav .fa-solid{
+    display: none;
+}
